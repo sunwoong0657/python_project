@@ -1,0 +1,15 @@
+import turtle
+win = turtle.Screen()
+win.bgpic('산길.gif')
+a = turtle.Turtle('turtle')
+turtle.speed(2)
+turtle.penup()
+turtle.goto(-100, -250)
+turtle.left(30)
+turtle.forward(200)
+turtle.setheading(90)
+turtle.forward(10)
+turtle.setheading(150)
+turtle.forward(100)
+
+turtle.mainloop()
